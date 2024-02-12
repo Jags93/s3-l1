@@ -9,7 +9,7 @@ namespace es1
     {
         static void Main()
         {
-            var menu = new Dictionary<int, Tuple<string, decimal>> {
+            var menu = new Ristorante<int, Tuple<string, decimal>> {
             {1, Tuple.Create("Coca Cola 150 ml", 2.50m)},
             {2, Tuple.Create("Insalata di pollo", 5.20m)},
             {3, Tuple.Create("Pizza Margherita", 10.00m)},
